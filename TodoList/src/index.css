@@ -1,0 +1,82 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.Logo{
+  width: 100%;
+  text-align: center;
+  padding-top: 5vh;
+  height: 20vh;
+  background-color: #7BC9FF;
+  color: white;
+}
+
+.Form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 25vh;
+  background-color: #8576FF;
+}
+.Form form select{
+  width: 60px;
+  height: 40px;
+}
+.Form form input{
+  border: none;
+  outline: none;
+  padding: 10px 5px;
+  margin: 0px 10px;
+}
+.Form form button{
+  border: none;
+  outline: none;
+  width: 70px;
+  height: 40px;
+}
+.List{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 45vh;
+  background-color: #A3FFD6;
+}
+.ListBox{
+  display: flex;
+  width: 90%;
+  height: 80%;
+  /* background-color: white; */
+}
+.item{
+  display: flex;
+  /* width: 90px; */
+  align-items: center;
+  flex-wrap: wrap;
+  height: 40px;
+  padding: 20px;
+  margin: 5px;
+  /* background-color: #1C1678; */
+}
+.item p{
+
+  color: rgb(75, 75, 75);
+  font-size: 20px;
+  margin-left: 10px !important;
+  margin-right: 10px !important;
+  font-weight: 500;
+  
+}
+.Footer{
+  width: 100%;
+  height: 10vh;
+  background-color: #1C1678;
+  color: white;
+  text-align: center;
+  padding-top: 3vh;
+}
